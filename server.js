@@ -76,6 +76,7 @@ INCI: ${inci}
 
 Bitte gib folgende Informationen zurück:
 {
+  "inci": "Korrekter INCI-Name (International Nomenclature of Cosmetic Ingredients)",
   "beschreibung": "Detaillierte Beschreibung der Zutat",
   "einsatzkonzentration": "Typische Konzentration (z.B. 1-5%)",
   "lagerung": "Eine der Optionen: Kühl & trocken, Kühlschrank, Raumtemperatur, Dunkel & kühl, Vor Licht schützen, Luftdicht verschlossen",
@@ -85,6 +86,7 @@ Bitte gib folgende Informationen zurück:
   "kategorie": ["Array mit passenden Kategorien: Basis, Öl, Butter, Wachs, Emulgator, Wirkstoff, Konservierung, Duft, Farbstoff, Sonstiges"]
 }
 
+WICHTIG: Für Sheabutter lautet der korrekte INCI-Name "Butyrospermum Parkii (Shea) Butter".
 Antworte nur mit dem JSON, ohne zusätzlichen Text.`;
 
         // Gemini API aufrufen
